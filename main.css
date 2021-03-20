@@ -38,3 +38,9 @@ p.alice {
 p.huge {
 	font-size: 26px;
 }
+
+a {
+	font-size: 64px;
+	text-align: center;
+	margin: 50vh auto 0;
+}
