@@ -26,7 +26,6 @@ img {
 }
 
 div.base {
-	border: solid red 1px;
 	width: 900px;
 	margin: auto;
 }
@@ -42,4 +41,6 @@ p.huge {
 a {
 	font-size: 64px;
 	text-align: center;
+	display: block;
+	
 }
