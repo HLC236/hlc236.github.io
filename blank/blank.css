@@ -1,0 +1,44 @@
+@font-face {
+	font-family: myfont;
+	src: url(rubreg.ttf);
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+img, p, div {
+	box-sizing: border-box;
+	display: block;
+}
+
+p {
+	white-space: pre-line; overflow-wrap: break-word; line-height: 1.5; text-align: justify;
+	font-size: 16px; font-weight: normal; font-family: myfont, tahoma, segoe ui, arial; color: #101010;
+	margin: auto;
+}
+
+img {
+	border: 4px solid black;
+	max-width: 100%;
+	min-width: 50%;
+	margin: auto;
+}
+
+img:hover {
+	transform: scale(1.5);
+}
+
+div.base {
+	border: solid red 4px;
+	width: 900px;
+	margin: auto;
+}
+
+p.alice {
+	text-align: center;
+}
+
+p.huge {
+	font-size: 32px;
+}
